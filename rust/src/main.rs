@@ -1,5 +1,5 @@
-mod rock_paper_scissors;
+mod bmi;
 
 fn main() {
-    rock_paper_scissors::rps("scissors", "paper");
+    bmi::bmi(80, 180.0);
 }
