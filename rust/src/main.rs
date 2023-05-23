@@ -1,5 +1,5 @@
-mod bmi;
+mod grade_book;
 
 fn main() {
-    bmi::bmi(80, 180.0);
+    print!("{}", grade_book::get_grade(82, 85, 87))
 }
