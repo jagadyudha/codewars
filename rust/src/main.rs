@@ -1,5 +1,6 @@
-mod repeat_str;
+mod find_max_min;
 
 fn main() {
-    print!("{}", repeat_str::repeat_str("anjay", 10))
+    let data: [i32; 8] = [4, 6, 2, 1, 9, 63, -134, 566];
+    print!("max = {}", find_max_min::maximum(&data))
 }
