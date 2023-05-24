@@ -1,5 +1,5 @@
-mod grade_book;
+mod repeat_str;
 
 fn main() {
-    print!("{}", grade_book::get_grade(82, 85, 87))
+    print!("{}", repeat_str::repeat_str("anjay", 10))
 }
