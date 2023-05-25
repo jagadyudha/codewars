@@ -1,7 +1,4 @@
-mod disemvowel;
-mod fake_bin;
-mod find_max_min;
-
+mod get_sum;
 fn main() {
-    print!("{}", disemvowel::disemvowel("hallo nama saya bambang"))
+    print!("{}", get_sum::get_sum(0, 2))
 }
